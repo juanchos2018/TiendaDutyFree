@@ -67,7 +67,7 @@ export default {
   ],
 
   axios: {
-    baseURL: 'http://tiendaapirest.reyfact.com' 
+    baseURL: 'https://tiendaapirest.reyfact.com' 
   },
 
   /*
