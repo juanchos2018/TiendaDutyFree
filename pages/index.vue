@@ -136,6 +136,21 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
+    head(){
+        return{ 
+            title: 'Tienda Dutyfree',
+            meta:[
+                {
+                  hid:'Inicio',
+                  name:'Inicio',
+                  meta:'Todos Nuestros Productos'
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
+    }
     
 }
 

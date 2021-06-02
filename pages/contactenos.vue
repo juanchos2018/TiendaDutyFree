@@ -132,6 +132,21 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
+    head(){
+        return{ 
+            title: 'Dutyfree | Contactenos',
+            meta:[
+                {
+                  hid:'contacto',
+                  name:'contacto',
+                  meta:'Contactenos para mas Información'
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
+    }
     
 }
 

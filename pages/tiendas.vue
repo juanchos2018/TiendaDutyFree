@@ -146,7 +146,21 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
-    
+    head(){
+        return{ 
+            title: 'Dutyfree | Nuestras Tiendas',
+            meta:[
+                {
+                  hid:'Tienda',
+                  name:'Tienda',
+                  meta:'Nuentras Tiendas de Tacna'
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
+    }
 }
 
 </script>

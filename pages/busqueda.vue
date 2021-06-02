@@ -65,6 +65,22 @@ export default {
     },
     methods: {
         ProductSearch
+    },
+
+    head(){
+        return{ 
+            title: 'Dutyfree | Producto de busqueda'+this.search_product,
+            meta:[
+                {
+                  hid:this.search_product,
+                  name:this.search_product,
+                  meta:'Producto '+this.search_product
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
     }
 }
 function ProductSearch() {

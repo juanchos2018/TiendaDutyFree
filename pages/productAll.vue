@@ -154,6 +154,21 @@ export default {
         ProductByCategory1,
         modo1,
         modo2
+    },
+     head(){
+        return{ 
+            title: 'Productos',
+            meta:[
+                {
+                  hid:'Producto',
+                  name:'Producto',
+                  meta:'Troductos relacionados con  '+this.name_category
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
     }
 }
 function ListCategories() {

@@ -52,6 +52,21 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
+    head(){
+        return{ 
+            title: 'Dutyfree | Marcas mas Vendidas',
+            meta:[
+                {
+                  hid:'Marcas',
+                  name:'Marcas',
+                  meta:'Marcas mas Vendidas'
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
+    }
     
 }
 function ListBrands() {

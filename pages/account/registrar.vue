@@ -173,7 +173,21 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
-    
+     head(){
+        return{ 
+            title: 'Dutyfree | Registrarse',
+            meta:[
+                {
+                  hid:'Registro',
+                  name:'Registro',
+                  meta:'Registrate en nuestra Tienda'
+                }
+            ],
+            htmlAttrs:{
+                lang:'es'
+             }
+        }
+    }
 }
 function ListProduct() {
     let me = this;

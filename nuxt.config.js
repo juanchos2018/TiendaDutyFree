@@ -15,11 +15,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Ventas',
+    title: 'Tienda DutyFree',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'Ventas', name: 'Ventas', content: 'Ventas de Articulos' }
+      { charset: 'utf-8' },   
+      { hid: 'Tienda', name: 'Tienda', content: 'Tienda DutyFree' },
+      { hid: 'url', name: 'url', content: 'TiendaDutyFree.com'}
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&amp;family=Rubik:wght@300;400;500;700;900&amp;display=swap'},
