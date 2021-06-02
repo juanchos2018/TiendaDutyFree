@@ -1,0 +1,27 @@
+{
+  "name": "onlinestorev1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "generate": "nuxt build && nuxt export"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "limax": "^2.1.0",
+    "nuxt": "^2.13.0",
+    "nuxt-session": "^1.0.3",
+    "nuxt-sweetalert2": "^1.0.0",
+    "swiper": "^6.6.1",
+    "v-owl-carousel": "^1.0.8",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-drawer-component": "^1.0.1",
+    "vue-inner-image-zoom": "^1.0.1",
+    "vue-session": "^1.0.0"
+  },
+  "devDependencies": {}
+}
