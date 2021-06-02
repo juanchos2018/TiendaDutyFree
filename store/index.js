@@ -2,7 +2,7 @@
 export const state = () => ({
     varieties: [],
     loadingVarieties: true,
-    url_base: 'http://dev.sertaads.com/api/',
+    url_base: 'https://dev.sertaads.com/api/',
     url_path: 'http://localhost:3000/',
     carrito: [],
     search_product:'',
