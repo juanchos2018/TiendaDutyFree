@@ -487,7 +487,9 @@ function AddOrder(token) {
               //this.$swal.fire({title: 'Se ha realizado su pedido con exito', icon: 'success', html: '', });
              // location.href = "http://localhost:3000/account/account";
 
-              location.href = "https://dutyfree.netlify.app/account/account"
+           //   location.href = "https://dutyfree.netlify.app/account/account"
+
+              location.href = "https://dutyfree.netlify.app/"
          }
     }).catch((error) => {
             console.log(error);
