@@ -485,7 +485,9 @@ function AddOrder(token) {
     }).then(function (response) {    
          if (response.data.status == 201) {
               //this.$swal.fire({title: 'Se ha realizado su pedido con exito', icon: 'success', html: '', });
-              location.href = "http://localhost:3000/account/account";
+             // location.href = "http://localhost:3000/account/account";
+
+              location.href = "https://dutyfree.netlify.app/account/account"
          }
     }).catch((error) => {
             console.log(error);

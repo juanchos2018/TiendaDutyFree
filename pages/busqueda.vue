@@ -69,7 +69,7 @@ export default {
 
     head(){
         return{ 
-            title: 'Dutyfree | Producto de busqueda'+this.search_product,
+            title: 'Dutyfree | Producto  '+this.search_product,
             meta:[
                 {
                   hid:this.search_product,
