@@ -121,4 +121,5 @@ export const getters = {
     isAddModalOpen:state => {
       return state.systemInfo.openAddProductoModal;
     },
+    
 }

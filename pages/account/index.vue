@@ -35,8 +35,11 @@
                         <div class="form-field-wrapper">
                             <input type="hidden" name="_token" value="x0xVM09cTZ31NBaZNsV0YNdIx4rbb1EoUE6CBfWr">
                             <button type="button" class="submit btn btn-md btn-color" @click="Loguer">Iniciar Sesión</button>
-                            
+                        
                         </div>
+                            
+                           <NuxtLink to="/account/changePass"><a class="gl-link gl-link" data-auto-id="login-form-forgot-password">¿Has olvidado tu contraseña?</a></NuxtLink>
+                      
                 
                 </div>
             </div>
@@ -96,15 +99,22 @@
           </div>
       </div>
   </section>
+<!-- Código de instalación CLIENGO para https://dutyfree.netlify.app/ -->
 
   </div>
 </template>
+<script>
 
+
+</script>
+ 
 <script>
 import InfoProduct from '@/components/Product'
 import { mapState, mapGetters, mapActions } from 'vuex'
 import axios from  'axios';
 
+  
+    
 export default {
     components: {
         InfoProduct,

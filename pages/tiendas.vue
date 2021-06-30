@@ -146,7 +146,7 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
-    head(){
+     head(){
         return{ 
             title: 'Dutyfree | Nuestras Tiendas',
             meta:[
@@ -161,6 +161,7 @@ export default {
              }
         }
     }
+    
 }
 
 </script>

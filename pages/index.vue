@@ -108,6 +108,10 @@
 </template>
 
 <script>
+
+
+
+    
 import InfoProduct from '@/components/Product'
 import { mapState, mapGetters, mapActions } from 'vuex'
 import axios from  'axios';
@@ -136,7 +140,7 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
-    head(){
+       head(){
         return{ 
             title: 'Tienda Dutyfree',
             meta:[
@@ -151,7 +155,6 @@ export default {
              }
         }
     }
-    
 }
 
 

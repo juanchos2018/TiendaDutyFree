@@ -132,7 +132,7 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
-    head(){
+     head(){
         return{ 
             title: 'Dutyfree | Contactenos',
             meta:[

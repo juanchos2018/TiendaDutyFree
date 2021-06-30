@@ -471,7 +471,6 @@ function OpenCulqi() {
 function AddOrder(token) {
     let data_order = JSON.parse(localStorage.getItem("order"));
 
-
     let url = data_order.url_base +"account/order-add";
      let data = {
         order : data_order.order,
@@ -485,11 +484,7 @@ function AddOrder(token) {
     }).then(function (response) {    
          if (response.data.status == 201) {
               //this.$swal.fire({title: 'Se ha realizado su pedido con exito', icon: 'success', html: '', });
-             // location.href = "http://localhost:3000/account/account";
-
-           //   location.href = "https://dutyfree.netlify.app/account/account"
-
-              location.href = "https://dutyfree.netlify.app/"
+              location.href = "http://localhost:3000/account/account";
          }
     }).catch((error) => {
             console.log(error);

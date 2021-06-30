@@ -76,6 +76,9 @@
                             <input type="hidden" name="_token" value="x0xVM09cTZ31NBaZNsV0YNdIx4rbb1EoUE6CBfWr">
                             <button type="button" class="submit btn btn-md btn-color"  @click="Loguer">Iniciar Sesión</button>
                         </div>
+                            
+                           <NuxtLink to="/account/changePass"><a class="gl-link gl-link" data-auto-id="login-form-forgot-password">¿Has olvidado tu contraseña?</a></NuxtLink>
+                      
                   
                 </div>
             </div>
@@ -173,21 +176,7 @@ export default {
     computed: {
         ...mapState(["url_base"]),
     },
-     head(){
-        return{ 
-            title: 'Dutyfree | Registrarse',
-            meta:[
-                {
-                  hid:'Registro',
-                  name:'Registro',
-                  meta:'Registrate en nuestra Tienda'
-                }
-            ],
-            htmlAttrs:{
-                lang:'es'
-             }
-        }
-    }
+    
 }
 function ListProduct() {
     let me = this;
@@ -221,7 +210,7 @@ function RegisterUser(){
 }
 
 function Loguer(){
-     let me = this;
+    let me = this;
     let url = this.url_base +"login-web";
     axios({
         method: "POST",

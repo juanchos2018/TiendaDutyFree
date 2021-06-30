@@ -155,7 +155,7 @@ export default {
         modo1,
         modo2
     },
-     head(){
+         head(){
         return{ 
             title: 'Productos',
             meta:[

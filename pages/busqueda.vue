@@ -66,8 +66,7 @@ export default {
     methods: {
         ProductSearch
     },
-
-    head(){
+     head(){
         return{ 
             title: 'Dutyfree | Producto  '+this.search_product,
             meta:[
